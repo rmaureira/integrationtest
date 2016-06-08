@@ -7,7 +7,7 @@ RUN pip install WebOb
 RUN pip install Paste
 RUN pip install webapp2
 
-ADD main.py . 
+ADD main.py .
 
 EXPOSE 8080
 
